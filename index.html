@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CSS Grids</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 40% 30% 30%;
+      /* grid-column-gap: 1em;
+      grid-row-gap: 1em; */
+      grid-gap: 1em;
+    }
+
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper > div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non doloremque reiciendis laborum minima itaque nobis voluptatem perspiciatis iure, quia a repellat hic libero! Earum nesciunt illum nam praesentium, esse tempore itaque? Adipisci sint deserunt quod eligendi incidunt amet voluptatum quibusdam! Dolor iste nam unde, minima porro quos architecto fugiat facilis sunt reiciendis soluta delectus iure suscipit vero voluptatem neque expedita iusto dolorum quas doloribus odio commodi! Dolores officia possimus sed temporibus iure deserunt odit laboriosam, praesentium dignissimos optio alias.
+    </div>
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit numquam optio laborum quibusdam nesciunt aperiam, voluptate at doloribus earum dignissimos tempore atque incidunt iusto soluta, voluptatibus adipisci, maxime quam laudantium.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non doloremque reiciendis laborum minima itaque nobis voluptatem perspiciatis iure, quia a repellat hic libero! Earum nesciunt illum nam praesentium, esse tempore itaque? Adipisci sint deserunt quod eligendi incidunt amet voluptatum quibusdam! Dolor iste nam unde, minima porro quos architecto fugiat facilis sunt reiciendis soluta delectus iure suscipit vero voluptatem neque expedita iusto dolorum quas doloribus odio commodi! Dolores officia possimus sed temporibus iure deserunt odit laboriosam, praesentium dignissimos optio alias.
+    </div>
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit numquam optio laborum quibusdam nesciunt aperiam, voluptate at doloribus earum dignissimos tempore atque incidunt iusto soluta, voluptatibus adipisci, maxime quam laudantium.
+    </div>
+  </div>
+</body>
+</html>
